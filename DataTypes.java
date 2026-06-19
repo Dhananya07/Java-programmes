@@ -35,6 +35,8 @@ public class DataTypes{
     }
 
     public static void main(String[] args){
+        Average();
+        squareArea();
         bill();
         
         

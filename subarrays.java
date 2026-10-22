@@ -1,6 +1,6 @@
 public class subarrays {
 
-    /*public static void subarray(int arr[]){
+    public static void subarray(int arr[]){
         int sum=0;
         int max=Integer.MIN_VALUE;
         for(int i=0; i<arr.length; i++){
@@ -14,9 +14,9 @@ public class subarrays {
             }
         }
         System.out.println(max);
-    }*/
+    }
 
-    /*ublic static void maxsum1(int arr[]){
+    public static void maxsum1(int arr[]){
         int currsum=0;
         int maxsum=Integer.MIN_VALUE;
         int prefix[]=new int[arr.length];
@@ -33,7 +33,7 @@ public class subarrays {
             }
         }
         System.out.println(maxsum);
-    }*/
+    }
 
     public static void maxsum2(int arr[]){
         int currsum=0;
